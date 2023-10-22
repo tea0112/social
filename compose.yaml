@@ -7,7 +7,7 @@ services:
       - 'POSTGRES_PASSWORD=Social!23'
       - 'POSTGRES_USER=social'
     ports:
-      - '5432'
+      - '5432:5432'
   social_pgadmin4:
     container_name: "social_pgadmin4"
     image: 'dpage/pgadmin4'
